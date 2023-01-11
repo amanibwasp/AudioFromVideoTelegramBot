@@ -1,5 +1,13 @@
-# AudioFromVideoTelegramBot
-This bot can help you get audio from any video on YouTube. Just send it a URL.
-To use it you should get a token of your bot with help of BotFather
-Then you need to create "config_file.py" and write into it your token in a var called "token"
-That's all! Now just compile main.py and send "/start" to your bot!
+# AudioFromVideo TelegramBot
+___
+Этот бот предназначен для **получения аудио из любого видео на YouTube**. Просто отправь ему URL:
+
+![send_url](readme_img/send_url.png?raw=true)
+
+Чтобы запустить бота на своей локальной машине или с использованием VDS сервера сначала нужно получить токен бота с помощью `@BotFather` в телеграме.
+Затем просто добавь в директорию с main файлом `"config_file.py"` и запиши в переменной "token" свой токен.
+
+![config_file](readme_img/config_file.png?raw=true)
+
+
+Всё! Осталось написать боту `/start`, запустив `main.py`!
